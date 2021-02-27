@@ -1,0 +1,218 @@
+*{
+    margin: 0px;
+    padding: 0px
+}
+body{
+    margin-left: 3%;
+    margin-right: 3%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+}
+.head{
+    height: 84px;
+}
+.logolink{
+    position: absolute;
+    padding-left: 5px;
+    top: 24px;
+}
+.head img{
+    height: 36px;
+    width: 120px;
+}
+.help{
+    position:absolute;
+    top: 36px;
+    right: 64px;
+    color: #188fff;
+    font-family: 'Roboto', sans-serif;
+    font-size:13px;
+    text-decoration: none;    
+}
+.inner{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Roboto', sans-serif;
+    background:white;
+    padding-top:1%;
+    height: 610px;
+}
+.logo{
+    font-family: 'Roboto', sans-serif;
+    font-size:20px;
+    margin-top: 100px;
+    margin-left:250px;
+    width:60%;
+    text-align: left;
+}
+form{
+    position: relative;
+    background-color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height: 508.33px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 30%);
+
+}
+input[type="text"]:focus{
+    border-bottom: 1px solid #188fff;  
+}
+/* Label's  reaction on focus */
+.name:focus + .user, .name:not(:placeholder-shown)+.user{
+    transform: translateY(-20px) scale(0.8);
+    color: black;
+}
+.user{
+    position: absolute;
+    left:30px;
+    color:#b4b4b4;
+    font-family: "Roboto", sans-serif;
+    font-size:15px;
+    transform-origin: 0 0;   
+    /* When there is a change in transform applies transition */
+    transition: transform 0.2s ease-in-out;   
+}
+.space{
+    line-height:10px;
+}
+form strong{
+    font-size: 20px;
+    font-family: "Helvetica", sans-serif;
+    font-weight: bold;
+}
+form p{
+    font-size:14px;
+    font-weight: 550;
+}
+
+.ylogo{
+    width: 90px;
+    height: 27px;
+}
+.glogo{
+    height:21.18px;
+    width:21.18px;
+}
+.forgot{
+    position: absolute;
+    color: #188fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    right:30px;
+}
+.sign{
+    position:absolute;
+    left:30px;
+    color: #188fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    
+}
+.login-form{
+    width:40%;
+}
+/* :-ms-input-placeholder{
+    color:#b4b4b4;
+}
+::placeholder{
+    color:#b4b4b4;
+} */
+.name{
+    position: relative;
+    border: none;
+    color:black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    outline: none;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #b9bdc5;
+    width: 100%;
+}
+.next{
+    position:relative;
+    width: 100%;
+    padding-top:10px;
+    color: white;
+    background-color:#188fff;
+    border: none;
+    outline:none;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    border-radius: 20px;
+    font-weight: 500;
+    padding-bottom:10px;
+}
+.create{
+    border-radius: 20px;
+    text-decoration: none;
+    color: #188fff;
+    background: white;
+    margin:0;
+    padding: 10px 84px 10px 84px;
+    border:1px solid #188fff;
+}
+.glogin{
+    position:relative;
+    width: 100%;
+    padding-top:10px;
+    color: black;
+    background-color:white;
+    border: 1px solid #b9bdc5;
+    outline:none;
+    border-radius: 23px;
+    padding-bottom:7px;
+}
+.glogin:hover, .create:hover, .help:hover, .forgot:hover, .center a:hover{
+    border-color: #183bff;
+    color: #183bff;
+}
+.next:hover{
+    background-color:#183bff;
+}
+/* the :active event is the event on the click*/
+.glogin:active, .create:active, .help:active, .forgot:active, .center a:active{
+    border-color: #2200b8;
+    color: #2200b8;
+}
+.next:active{
+    background-color:#2200b8;
+}
+.glogoname{
+    height:18px;
+    width:55px;
+}
+.bottom{
+    position: sticky;
+    bottom: 0;
+    height: 23px;
+    background-color:white;
+    display: flex;
+    flex-direction: row;
+}
+.center{
+    margin: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+.bottom span{
+    margin-left: 2.5px;
+    margin-right: 2.5px; 
+    font-size: 9.5px;
+    font-weight: bold;
+    color:#000000;
+}
+.bottom a{
+    color: #188fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 9px;
+    text-decoration: none;
+}
