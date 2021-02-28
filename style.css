@@ -8,6 +8,24 @@ body{
     background: white;
     display: flex;
     flex-direction: column;
+    /* padding-right:3%; */
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  /* box-shadow: inset 0 0 5px grey;  */
+  border-radius: 5px;
+  background: rgb(202, 201, 201);
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(153, 151, 151);; 
+  border-radius: 5px;
 }
 .head{
     height: 84px;
@@ -42,7 +60,8 @@ body{
     font-family: 'Roboto', sans-serif;
     font-size:20px;
     margin-top: 100px;
-    margin-left:250px;
+    margin-left:5%;
+    padding-right: 5%;
     width:60%;
     text-align: left;
 }
@@ -117,6 +136,8 @@ form p{
 }
 .login-form{
     width:40%;
+    padding-right:5%;
+    margin-right:5%;
 }
 /* :-ms-input-placeholder{
     color:#b4b4b4;
@@ -152,11 +173,11 @@ form p{
 }
 .create{
     border-radius: 20px;
-    text-decoration: none;
     color: #188fff;
     background: white;
     margin:0;
-    padding: 10px 84px 10px 84px;
+    padding: 10px;
+    width: 100%;
     border:1px solid #188fff;
 }
 .glogin{
@@ -217,41 +238,26 @@ form p{
     text-decoration: none;
 }
 
-@media only screen and (max-width: 700px){
-    body{
-        margin:auto;
-        background: white;
-        display: flex;
-        flex-direction: column;
-    }
+@media only screen and (max-width: 800px){
+    /* removal */
     .inner{
-        font-family: 'Roboto', sans-serif;
-        background:white;
-        padding-top:1%;
-        height: 610px;
+        height:100vh;
     }
     .logo{
-        color: transparent;
-        margin: 0;
-        padding:0 0 0 0;
-        height: 0;
+        color:rgba(255, 255, 255, 0);
         width:0%;
+        height:0%;
+        padding: 0% 0% 0% 0%;
+        margin: 0% 0% 0% 0%;
     }
     .login-form{
-        padding: 0 15% 0;
         width:100%;
+        padding-right: 0%;
+        margin-right: 0%;
     }
     form{
-        background-color: white;
-        padding-left: 30px;
-        padding-right: 30px;
-        padding-top: 30px;
-        padding-bottom: 30px;
-        height: 508.33px;
-        font-family: 'Roboto', sans-serif;
-        text-align: center;
-        width: 300px;
-        box-shadow: 0 2px 4px 0 rgb(0 0 0 / 30%);
-
+        width:88%;
+        height:90%;
+        box-shadow: 0 0 0 0;
     }
 }
