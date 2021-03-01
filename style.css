@@ -174,6 +174,9 @@ form p{
 .create{
     border-radius: 20px;
     color: #188fff;
+    font-family: "Roboto", sans-serif;
+    font-size:18px;
+    font-weight: 500;
     outline:none;
     background: white;
     margin:0;
