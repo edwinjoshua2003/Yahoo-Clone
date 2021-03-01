@@ -213,21 +213,18 @@ form p{
 }
 .bottom{
     position: sticky;
-    bottom: 0px;
+    bottom: 0;
     height: 23px;
     background-color:white;
-    display: flex;
-    flex-direction: row;
+    text-align: center;
 }
 .center{
     margin: auto;
     height: auto;
-    display: flex;
-    flex-direction: row;
 }
 .bottom span{
-    margin-left: 2.5px;
-    margin-right: 2.5px; 
+    margin-left: 2px;
+    margin-right: 2px; 
     font-size: 9.5px;
     font-weight: bold;
     color:#000000;
@@ -241,9 +238,9 @@ form p{
 
 @media only screen and (max-width: 800px){
     /* removal */
-    .inner{
+    /* .inner{
         height:100vh;
-    }
+    } */
     .logo{
         color:rgba(255, 255, 255, 0);
         width:0%;
