@@ -241,6 +241,10 @@ form p{
 
 @media only screen and (max-width: 800px){
     /* removal */
+    body{
+        margin-right: 0%;
+        margin-left: 3%;
+    }
     .head{
         color:rgba(255, 255, 255, 0);
         width:0%;
@@ -261,7 +265,7 @@ form p{
         margin-right: 0%;
     }
     form{
-        width:87%;
+        width: 88%;
         height:90%;
         box-shadow: 0 0 0 0;
     }
